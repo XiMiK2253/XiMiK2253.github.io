@@ -1,0 +1,44 @@
+:root {
+  --bg: #fbf6f0;
+  --card: #ffffff;
+  --ink: #3b3346;
+  --muted: #8a8196;
+  --accent: #e07a56;
+  --line: #eee4da;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1a24;
+    --card: #26232f;
+    --ink: #efe7dd;
+    --muted: #a79fb2;
+    --accent: #f2a98e;
+    --line: #34303e;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.6 "Nunito", system-ui, sans-serif;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; font-weight: 800; }
+h2 { font-size: 20px; margin: 32px 0 8px; color: var(--accent); font-weight: 800; }
+.date { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+.card {
+  background: var(--card);
+  border-radius: 20px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  border: 1px solid var(--line);
+}
+a { color: var(--accent); }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 40px; font-size: 15px; }
