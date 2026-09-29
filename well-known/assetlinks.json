@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.perviigod.pervii_god",
+      "sha256_cert_fingerprints": [
+        "79:C3:39:19:C8:43:4E:FD:12:E0:17:8E:50:4E:28:5E:91:25:F2:B8:D0:58:70:90:E0:34:09:76:69:AB:FD:F7",
+        "AB:A9:8F:F9:A4:82:94:13:EF:84:EF:0E:9F:3F:4D:2D:13:33:F4:3A:21:14:87:94:74:D1:B2:6D:82:D1:53:0D"
+      ]
+    }
+  }
+]
